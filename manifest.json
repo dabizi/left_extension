@@ -3,7 +3,7 @@
 	"name" : "Lefts",
 	"version": "1.0",
 
-	"description": "Save data from Website",
+	"description": "Replace rights by lefts",
 
 	"icons":{
 	"48": "icons/border-48.png"
@@ -11,8 +11,9 @@
 
 	"content_scripts": [
 	{
-		"matches": ["<all_urls>"],
-		"js": ["remembweb.js"]
+		"matches": ["*://*/*"],
+		"js": ["lefts.js"],
+    "run_at" : "document_end"
 	}
-	]	
+	]
 }
