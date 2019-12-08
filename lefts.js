@@ -1,4 +1,4 @@
-             /* Made by Janin Grandne */
+              /* Made by Janin Grandne */
         /* Inspired by jshint version for Brexit */
     /* Updated with panicsteve's cloud-to-butt      */
 /* I find this version better than the one of 9to5google */

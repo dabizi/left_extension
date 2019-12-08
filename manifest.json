@@ -6,7 +6,9 @@
 	"description": "Replace rights by lefts",
 
 	"icons":{
-	"48": "icons/border-48.png"
+	"32": "icons/lefts-32.png",
+	"64": "icons/lefts-64.png",
+	"128": "icons/lefts-128.png"
 	},
 
 	"content_scripts": [
